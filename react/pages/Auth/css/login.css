@@ -1,0 +1,13 @@
+.wrapper-register{
+    height: 100vh;
+    background-image: url("../../../assets/img/login4.jpg");
+    background-size: cover;
+}
+.wrapper-login{
+    height: 100vh;
+    background-image: url("../../../assets/img/login6.jpg");
+    background-size: cover;
+}
+.overlay{
+    background-color:rgba(30, 143, 255, 0.747);
+}

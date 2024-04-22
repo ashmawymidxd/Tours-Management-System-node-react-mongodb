@@ -1,0 +1,53 @@
+.hero {
+  height: 550px;
+  background-image: url("../img/mainHero3.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.packageHero {
+  height: 550px;
+  background-image: url("../img/HeroPackag.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.aboutHero {
+  height: 550px;
+  background-image: url("../img/HeroAbout.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.policyHero {
+  height: 550px;
+  background-image: url("../img/PolicyHero.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.termsHero {
+  height: 550px;
+  background-image: url("../img/HeroTerms.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contactUstHero {
+  height: 550px;
+  background-image: url("../img/HeroContact.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.enquirytHero {
+  height: 550px;
+  background-image: url("../img/HeroEnquiry.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.text-white .row .col-md-4:nth-child(1) {
+  background-color: rgba(32, 32, 131, 0.308);
+  margin-top: 80px;
+  border-radius: 10px;
+  padding-top: 20px;
+}

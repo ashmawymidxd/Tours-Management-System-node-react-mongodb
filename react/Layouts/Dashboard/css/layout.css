@@ -1,0 +1,75 @@
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+.overflow-x-scroll {
+  overflow-y: scroll;
+}
+.overflow-y-scroll::-webkit-scrollbar {
+  display: none;
+}
+.overflow-x-scroll::-webkit-scrollbar {
+  display: none;
+}
+.custom-side-bar {
+  flex: 1;
+}
+.main-content {
+  flex: 5;
+  height: 100vh;
+}
+
+
+@media (max-width: 992px) {
+  .custom-sidbar .navlink span,
+  .logout {
+    display: none;
+  }
+  .custom-sidbar i {
+    padding: 10px;
+  }
+  .custom-sidbar .TMS {
+    display: none;
+  }
+  .main-content {
+    flex: 1;
+  }
+  .custom-side-bar {
+    flex: 0;
+  }
+}
+@media (max-width: 768px) {
+  .custom-sidbar .navlink span,
+  .logout {
+    display: none;
+  }
+  .custom-sidbar i {
+    padding: 7px;
+  }
+  .custom-sidbar .TMS {
+    display: none;
+  }
+  .main-content {
+    flex: 1;
+  }
+  .custom-side-bar {
+    flex: 0;
+  }
+}
+@media (max-width: 600px) {
+  .custom-sidbar .navlink span,
+  .logout {
+    display: none;
+  }
+  .custom-sidbar i {
+    padding: 6px 3px;
+  }
+  .custom-sidbar .TMS {
+    display: none;
+  }
+  .main-content {
+    flex: 1;
+  }
+  .custom-side-bar {
+    flex: 0;
+  }
+}

@@ -1,0 +1,9 @@
+.custom-navbar {
+  background-color: rgb(46, 40, 138);
+  padding: 15px 0;
+  background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+}
+.active-link-navbar {
+ border-bottom: 2px solid #eee;
+ color: #eee;
+}
